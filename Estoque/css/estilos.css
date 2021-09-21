@@ -1,0 +1,58 @@
+.alinharRotulos{
+    text-align: right;
+}
+.alinhaBtns {
+    width: 30%;/* A propriedade CSS width determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento. */
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.carrinho {
+    width: 300px;
+    float: right;
+}
+.carrinho p {
+    display: inline;
+}
+table {
+    clear: both;
+    background-color: rgb(213,97,100);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+caption {
+    color: rgb(213,97,100);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.navMenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px; 
+    text-align: center;
+    padding-bottom: 50px;
+         
+    
+}
+.navMenu ul li{
+    display: inline-block;    
+}
+.navMenu ul li a:hover {
+    font-size: 30px;
+    color: rgb(173, 18, 153);    
+}
+.navMenu ul li a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+

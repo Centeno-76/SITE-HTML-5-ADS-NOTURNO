@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cadastro de Novos Produtos</title>
+</head>
+<body>
+
+    <nav class="navMenu">
+        <ul>
+            <li><a href="../Home/Index.html">Menu</a></li>
+            <li><a href="../Cadastro/Cadastro.html">Cadastro</a></li>
+            <li><a href="../Financas/Financas.html">Finanças</a></li>
+            <li><a href="../Estoque/MeuEstoque.html">Meu Estoque</a></li>
+            <li><a href="../Contato/Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="carrinho">
+        <img src="img/carrinhoCompras.png" alt="">
+        <p> Itens no estoque: <span id="totalEstoque">0</span></p>
+    </div>
+
+    <form>
+        <table>
+            <caption>Cadastro de Novos Produtos</caption>
+            <tr>
+                <td class="alinharRotulos">Nome do produto:</td>
+                <td><input id="txtNomeProduto" type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="alinharRotulos">Código do Produto:</td>
+                <td><input id="txtCodProduto" type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="alinharRotulos">Quantidade do produto:</td>
+                <td>
+                    <select id="qtidadeProduto">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Cadastrar" class="alinhaBtns">
+                    <input type="button" value="Ver estoque" class="alinhaBtns">
+                    <input type="reset" value="Limpar" class="alinhaBtns">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
